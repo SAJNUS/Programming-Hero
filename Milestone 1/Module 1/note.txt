@@ -1,0 +1,39 @@
+paragraph tag : <p></p>
+
+non-semantic tags:
+bold (b) : <b></b>
+italic (i) : <i></i>
+
+semantic tags: (we will use semantic tags)
+bold (strong) : <strong></strong>
+italic (emphasis) : <em></em>
+
+heading (h) : <h1></h1> to <h6></h6>
+
+inline element (b, i, strong, em)
+block element (h1-h6)
+
+list item (li) : <li></li>
+    unordered list (ul) : <ul></ul>
+    ordered list (ol) : <ol></ol>
+
+division (div) : <div></div>
+
+line break : <br>
+
+button : <button></button>
+
+anchor (a) : <a href=""></a>
+
+image (img) : <img src="" alt="">
+source (src)
+alternative text (alt) 
+
+form : <form></form>
+input : <input type="text">
+(type : text, password, checkbox, radio, submit, reset, file, hidden, image, button, color, date, datetime-local, email, month, number, range, search, tel, time, url, week)
+label : <label></label>
+
+descriptive list (dl) : <dl></dl>
+descriptive term (dt) : <dt></dt>
+descriptive details (dd) : <dd></dd>

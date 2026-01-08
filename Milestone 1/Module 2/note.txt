@@ -1,0 +1,41 @@
+CSS - Cascading Style Sheet
+
+inline css
+internal css
+external css
+
+class selector: .class {}
+id selector: #id {}
+element selector: element {}
+
+universal selector: asterisk (*)
+group selector: h1, p {}
+div: change the whole thing
+span: change a particular thing
+
+border: 1px (border width), solid (border type), black (border color)
+margin: 10px (TBLR)
+margin: 10px 20px (TB LR)
+margin: 10px 20px 30px (T LR B)
+margin: 10px 20px 30px 40px (T R B L)
+
+CSS Box Model
+border: 1px solid black;
+margin: 20px;
+padding: 20px;
+
+Attribute selector
+input[type="password"] {
+            color: red;
+}
+
+External CSS
+link:css
+display: none;
+visibility: hidden;
+
+CSS Background
+background-image: url();
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;

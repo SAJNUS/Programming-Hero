@@ -1,0 +1,51 @@
+>>> What is Git?
+Git is a tool that helps you manage your code.
+It keeps track of what you changed, when you changed it, and who changed it.
+You can also go back to an older version of your code if something breaks.
+
+>>> Advantages of Using Git
+1. Tracks changes: Git remembers every change made to your files.
+2. Go back to old versions: If your code breaks, you can return to a previous working version.
+3. Work safely: You can try new ideas without damaging the main project.
+4. Team collaboration: Many people can work on the same project at the same time.
+5. Backup of code: Your code is safe and not lost easily.
+6. Free and fast: Git is free and works very fast even for big projects.
+
+>>> What is a Version Control System (VCS)?
+A Version Control System is a tool that keeps track of changes in files over time.
+It helps you:
+1. Save different versions of a project
+2. See what changed and who changed it
+3. Go back to an older version if something goes wrong
+
+>>> What’s the difference between Git and GitHub?
+(Git)
+1. Git is a version control tool used to track changes in code.
+2. It works offline on your computer.
+3. It helps you go back to previous versions of your project.
+(GitHub)
+1. GitHub is an online platform that stores Git projects.
+2. It helps developers share and collaborate on code.
+3. It works as a cloud backup for your code.
+
+>>> Name a few Git commands with their function
+1. git init: Creates a new Git repository in a project.
+2. git status: Shows the current state of files (changed, added, or untracked).
+3. git add: Adds files to the staging area.
+4. git commit: Saves changes with a message.
+5. git push: Uploads local commits to GitHub.
+6. git pull: Downloads latest changes from GitHub.
+
+>>> Difference between git fetch and git pull
+(git fetch)
+1. Downloads latest changes from the remote repository.
+2. Does not change your local code.
+3. Allows you to review changes before merging.
+(git pull)
+1. Downloads latest changes from the remote repository.
+2. Automatically merges changes into your local branch.
+3. Directly updates your working code.
+
+git init
+git add .
+git commit -m "---"
