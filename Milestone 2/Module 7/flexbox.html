@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 500px;
+            background-color: skyblue;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+        .box1, .box2, .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border: 1px solid black;
+        }
+        .nav {
+            max-height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: turquoise;
+        }
+        img {
+            width: 50px;
+            margin-left: 10px;
+        }
+        .list {
+            display: flex;
+        }
+        li {
+            list-style: none;
+            font-size: 24px;
+            margin-right: 50px;
+            }
+        li:hover {
+            color: white;
+            background-color: black;
+            }
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <br>
+    <div class="nav">
+        <img src="https://images.seeklogo.com/logo-png/46/2/chatgpt-logo-png_seeklogo-465219.png" alt="logo">
+        <div class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li style="margin-right: 25px;">Content</li>
+        </div>
+    </div>
+</body>
+</html>
